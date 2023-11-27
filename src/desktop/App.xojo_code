@@ -15,19 +15,19 @@ Inherits Application
 
 	#tag MenuHandler
 		Function WindowMiniMapTest() As Boolean Handles WindowMiniMapTest.Action
-			WinMiniMapTest.Show
-			
-			Return True
-			
+		  WinMiniMapTest.Show
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function WindowNavigationTest() As Boolean Handles WindowNavigationTest.Action
-			WinNavigationTest.Show
-			
-			Return True
-			
+		  WinNavigationTest.Show
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 

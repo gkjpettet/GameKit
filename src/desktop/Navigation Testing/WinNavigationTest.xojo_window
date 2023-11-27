@@ -3,7 +3,7 @@ Begin Window WinNavigationTest
    Backdrop        =   0
    BackgroundColor =   &cFFFFFF00
    Composite       =   False
-   DefaultLocation =   "0"
+   DefaultLocation =   0
    FullScreen      =   False
    HasBackgroundColor=   False
    HasCloseButton  =   True
@@ -21,7 +21,7 @@ Begin Window WinNavigationTest
    MinimumWidth    =   64
    Resizeable      =   True
    Title           =   "NavigationTest"
-   Type            =   "0"
+   Type            =   0
    Visible         =   True
    Width           =   944
    Begin NavigationCanvas MyMap
@@ -58,7 +58,7 @@ Begin Window WinNavigationTest
       Index           =   -2147483648
       LockedInPosition=   False
       Period          =   33
-      RunMode         =   "2"
+      RunMode         =   2
       Scope           =   0
       TabPanelIndex   =   0
    End
@@ -87,7 +87,7 @@ Begin Window WinNavigationTest
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
-      TextAlignment   =   "0"
+      TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   640
@@ -151,7 +151,7 @@ Begin Window WinNavigationTest
          Top             =   56
          Transparent     =   False
          Underline       =   False
-         Value           =   True
+         Value           =   False
          Visible         =   True
          Width           =   100
       End
@@ -181,7 +181,7 @@ Begin Window WinNavigationTest
          Top             =   88
          Transparent     =   False
          Underline       =   False
-         Value           =   False
+         Value           =   True
          Visible         =   True
          Width           =   100
       End
@@ -303,7 +303,7 @@ Begin Window WinNavigationTest
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
-      TextAlignment   =   "0"
+      TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   237
@@ -338,7 +338,7 @@ Begin Window WinNavigationTest
       TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
-      TextAlignment   =   "3"
+      TextAlignment   =   3
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   640
@@ -378,7 +378,7 @@ Begin Window WinNavigationTest
       Underline       =   False
       Value           =   False
       Visible         =   True
-      VisualState     =   "0"
+      VisualState     =   0
       Width           =   159
    End
    Begin Label LabelHelp
@@ -406,7 +406,7 @@ Begin Window WinNavigationTest
       TabIndex        =   10
       TabPanelIndex   =   0
       TabStop         =   True
-      TextAlignment   =   "0"
+      TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   301
@@ -436,7 +436,7 @@ Begin Window WinNavigationTest
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   True
-      MacButtonStyle  =   "0"
+      MacButtonStyle  =   0
       Scope           =   0
       TabIndex        =   11
       TabPanelIndex   =   0
@@ -592,7 +592,7 @@ End
 
 
 	#tag Property, Flags = &h0, Description = 5468652063757272656E74206D6F757365206D6F64652E2044657465726D696E657320776861742068617070656E73207768656E20746865206D6F75736520627574746F6E20697320636C69636B65642E
-		CurrentMode As Modes = Modes.Layout
+		CurrentMode As Modes = Modes.PlacingStart
 	#tag EndProperty
 
 	#tag Property, Flags = &h21, Description = 5468652063757272656E7420726F757465206265747765656E20605374617274496E6465786020616E642060476F616C496E646578602E204D6179206265204E696C2E
