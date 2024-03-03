@@ -81,7 +81,7 @@ Implements GameKit.IGraphTraveller
 		    NavDemoTile(currentNode).row = NavDemoTile(neighbour).Row Then
 		    Return cost
 		  Else
-		    Return cost + 1.4142
+		    Return cost * 1.4142
 		  End If
 		  
 		End Function
